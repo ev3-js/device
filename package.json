@@ -1,0 +1,19 @@
+{
+  "name": "@ev3-js/device",
+  "version": "0.0.1",
+  "description": "Write to EV3 device",
+  "main": "index.js",
+  "scripts": {
+    "postversion": "git push && git push --tags && npm publish --access=public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ev3-js/device.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ev3-js/device/issues"
+  },
+  "homepage": "https://github.com/ev3-js/device#readme"
+}
