@@ -4,7 +4,7 @@ function Device (path) {
   this.path = path
 }
 
-Device.prototype.run = function (prefix, cmd) {
+Device.prototype.write = function (prefix, cmd) {
   return fs.writeFileSync(this.path + '/' + prefix, cmd)
 }
 

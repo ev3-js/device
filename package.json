@@ -1,5 +1,5 @@
 {
-  "name": "@ev3-js/device",
+  "name": "ev3-js-device",
   "version": "0.0.2",
   "description": "Write to EV3 device",
   "main": "index.js",
