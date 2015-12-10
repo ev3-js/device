@@ -1,6 +1,6 @@
 {
   "name": "ev3-js-device",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Write to EV3 device",
   "main": "lib/index.js",
   "scripts": {
