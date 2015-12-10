@@ -1,4 +1,4 @@
-var fs = require('fs')
+import fs from 'fs'
 
 function Device (path) {
   this.path = path
@@ -12,4 +12,4 @@ Device.prototype.read = function (prop) {
   return fs.readFileSync(this.path + '/' + prop, 'utf-8')
 }
 
-module.exports = Device
+export default Device
