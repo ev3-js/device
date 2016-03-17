@@ -10,5 +10,8 @@
     "type": "git",
     "url": "git+https://github.com/ev3-js/device.git"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "ev3-js-devices": "^0.5.2"
+  }
 }
